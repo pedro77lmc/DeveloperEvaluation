@@ -54,6 +54,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		SeleRequest.cs = SeleRequest.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validators", "Validators", "{2A900389-B893-45C3-9F34-35B5565E158E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Ambev.DeveloperEvaluation.Domain\Common\BranchDtoValidator.cs = src\Ambev.DeveloperEvaluation.Domain\Common\BranchDtoValidator.cs
+		src\Ambev.DeveloperEvaluation.Domain\Common\CreateSaleItemDtoValidator.cs = src\Ambev.DeveloperEvaluation.Domain\Common\CreateSaleItemDtoValidator.cs
+		src\Ambev.DeveloperEvaluation.Domain\Common\CreateSaleRequestValidator.cs = src\Ambev.DeveloperEvaluation.Domain\Common\CreateSaleRequestValidator.cs
+		src\Ambev.DeveloperEvaluation.Domain\Common\CustomerDtoValidator.cs = src\Ambev.DeveloperEvaluation.Domain\Common\CustomerDtoValidator.cs
+		src\Ambev.DeveloperEvaluation.Domain\Common\ProductDtoValidator.cs = src\Ambev.DeveloperEvaluation.Domain\Common\ProductDtoValidator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6C91E442-96B0-4177-ADF4-A4EADFF412D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{336A8CE6-AF6A-455D-8DD6-DD821D035558}"
+	ProjectSection(SolutionItems) = preProject
+		src\Ambev.DeveloperEvaluation.Domain\Services\SalesController.cs = src\Ambev.DeveloperEvaluation.Domain\Services\SalesController.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +144,10 @@ Global
 		{7E1EFB67-8305-423C-9E09-CBC62465FA18} = {040F270A-3788-4E88-99A6-F236286DE3E7}
 		{C0DDDE39-2D65-4AF5-90D4-F35D87A79009} = {040F270A-3788-4E88-99A6-F236286DE3E7}
 		{2B484022-3EF7-4BAB-ADB8-849F9E419EDD} = {C8926C5D-2F67-4F90-982B-FFB45F517D65}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {7DC3E4B1-675C-4122-AA58-4BCBA06C4A82}
+		{2A900389-B893-45C3-9F34-35B5565E158E} = {7DC3E4B1-675C-4122-AA58-4BCBA06C4A82}
+		{6C91E442-96B0-4177-ADF4-A4EADFF412D8} = {D2B590AD-CC11-4062-A3C3-0718E17D651C}
+		{336A8CE6-AF6A-455D-8DD6-DD821D035558} = {6C91E442-96B0-4177-ADF4-A4EADFF412D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13EAB81A-C6B2-4C22-B4DE-C6603FC445B6}
